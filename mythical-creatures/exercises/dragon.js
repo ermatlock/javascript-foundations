@@ -6,10 +6,10 @@ class Dragon {
     this.eatCount = 0;
   }
   greet() {
-    return `Hi, ${this.rider}!`
+    return `Hi, ${this.rider}!`;
   }
   eat() {
-    this.eatCount ++
+    this.eatCount ++;
     if (this.eatCount === 3) {
       this.hungry = false;
     }
