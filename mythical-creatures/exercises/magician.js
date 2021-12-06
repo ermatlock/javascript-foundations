@@ -13,15 +13,16 @@ class Magician {
     if (this.favoriteAccessory != 'top hat') {
       return `PULL DOVE FROM SLEEVE`;
     } else {
-    return `PULL RABBIT FROM TOP HAT`;
+      return `PULL RABBIT FROM TOP HAT`;
     }
   }
   performShowStopper() {
-    if (this.confidencePercentage >= 100 && this.assistant){
+    if (this.confidencePercentage >= 100 && this.assistant) {
       return `WOW! The magician totally just sawed that person in half!`;
     } else {
-        return `Oh no, this trick is not ready!`;
+      return `Oh no, this trick is not ready!`;
     }
   }
 };
+
 module.exports = Magician;

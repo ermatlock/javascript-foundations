@@ -4,4 +4,5 @@ class Person {
     this.mood = 'frightened';
   }
 }
+
 module.exports = Person;

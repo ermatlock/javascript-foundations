@@ -11,7 +11,7 @@ class Vampire {
       this.ouncesDrank += 10;
     }
     return `I\'m too full to drink anymore!`;
-    }
+  }
 };
 
 module.exports = Vampire;

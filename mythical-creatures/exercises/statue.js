@@ -3,4 +3,5 @@ class Statue {
     this.name = statue;
   }
 };
+
 module.exports = Statue;

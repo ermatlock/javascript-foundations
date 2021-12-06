@@ -1,5 +1,5 @@
 class Dragon {
-  constructor (name, rider) {
+  constructor(name, rider) {
     this.name = name;
     this.rider = rider;
     this.hungry = true;
@@ -9,7 +9,7 @@ class Dragon {
     return `Hi, ${this.rider}!`;
   }
   eat() {
-    this.eatCount ++;
+    this.eatCount++;
     if (this.eatCount === 3) {
       this.hungry = false;
     }
