@@ -13,10 +13,9 @@ class Medusa {
       person = new Person(person.name);
       person.mood = 'relieved';
       this.statues.push(statue);
-      return person
-    } else {
-      this.statues.push(statue);
+      return person;
     }
+    this.statues.push(statue);
   };
 };
 
