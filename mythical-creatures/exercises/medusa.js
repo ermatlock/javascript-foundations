@@ -9,13 +9,13 @@ class Medusa {
   gazeAtVictim(victim) {
     var statue = new Statue(victim.name);
     if (this.statues.length === 3) {
-      var person = this.statues.shift();
+      var person = this.statues.shift()
       person = new Person(person.name);
       person.mood = 'relieved';
-      this.statues.push(statue);
-      return person;
     }
     this.statues.push(statue);
+    return person;
+
   };
 };
 
