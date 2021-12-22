@@ -1,5 +1,3 @@
-// var Ogre = require('./ogre.js');
-
 class Human {
   constructor(name) {
     this.name = name;
