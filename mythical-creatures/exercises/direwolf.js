@@ -1,5 +1,3 @@
-var Stark = require('./stark');
-
 class Direwolf {
   constructor(name, location, size) {
     this.name = name;
