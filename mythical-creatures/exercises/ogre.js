@@ -7,7 +7,7 @@ class Ogre {
 
   encounter(human) {
     human.encounterCounter++;
-    if (human.encounterCounter === 3 || human.encounterCounter === 6) {
+    if (human.encounterCounter % 3 === 0 && human.encounterCounter !== 0) {
       this.swingAt(human);
     }
   }
